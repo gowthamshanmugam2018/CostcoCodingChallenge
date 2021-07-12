@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.FullImageScreen">
+
+    <ImageView
+        android:id="@+id/gallery_full_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/app_name"/>
+
+    <ProgressBar
+        android:id="@+id/image_loader"
+        android:layout_width="@dimen/progress_bar_dimen"
+        android:layout_height="@dimen/progress_bar_dimen"
+        android:layout_centerInParent="true"
+        android:translationZ="@dimen/z_axis_projection" />
+
+</RelativeLayout>
